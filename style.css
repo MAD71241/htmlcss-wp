@@ -107,13 +107,11 @@ color: grey;
 .side_column {
     width: 20%;
     color: lightgrey;
-    height: 600px;
 }
 
 .center_column {
     width: calc(60% - 20px);
     color: lightgrey;
-    height: 600px;
     margin: 0 10px;
 }
 
