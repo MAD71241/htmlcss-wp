@@ -1,0 +1,113 @@
+/* general */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+.top_banner, .navbar, .main_article_logo, .main_article_title, .main_menu {
+    width: 80%;
+    margin: auto;
+}
+
+.top_banner {
+    height: 100px;
+    background-color: white;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+.top_banner > img {
+    height: 100%;
+    width: auto;
+}
+
+.navbar {
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+.navbar a {
+    font-size: 18px;
+    text-decoration: none;
+    padding-right: 10px;
+}
+.navbar a, a:link, a:visited, a:active {
+    color: grey;
+    
+}
+
+/* main article */
+.main_article_logo {
+    height: 450px;
+    background-color: #522546;
+    margin-top: 5px;
+    border-radius: 15px;
+    padding: 300px 0 0 50px;
+}
+
+.main_article_title {
+    vertical-align: middle;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.leadership {
+
+}
+
+.paragraph {
+
+}
+
+/* menu centrale */
+
+.main_menu {
+    background-color: #6c5b7b;
+    margin-top: 30px;
+}
+
+.side_column, .center_column {
+    float: left;
+}
+
+.side_column {
+    width: 20%;
+    background-color: #311d3f;
+    color: lightgrey;
+    height: 600px;
+}
+
+.center_column {
+    width: calc(60% - 20px);
+    color: lightgrey;
+    height: 600px;
+    margin: 0 10px;
+}
+
+.image_placeholder {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+/* footer  */
+footer {
+    text-align: center;
+    margin: 20px 0;
+}
